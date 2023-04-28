@@ -8,10 +8,11 @@ sudo snap install go --classic
 
 sudo go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
-chmod +x jonly
+
 
 #use:
 
+chmod +x jonly
 ./jonly domain.com -o live.txt 
 
 
